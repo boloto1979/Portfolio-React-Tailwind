@@ -1,7 +1,5 @@
 import React from "react";
-import EzoFuck from "../assets/ezfuck.png";
-import Chatbot from "../assets/chatbot.jpeg";
-import Blog from "../assets/laravel.png";
+import Phishing from "../assets/6b38023a-b3de-4c64-9919-d79a5a2fb34a.jpeg";
 import Keylogger from "../assets/keylogger.jpg";
 import Malware from "../assets/malware.png";
 import Sentinel from "../assets/stark-sentinel.jpg";
@@ -10,36 +8,20 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: EzoFuck,
-      link:'https://github.com/boloto1979/EZofuck'
+      src: Sentinel,
+      link:'https://github.com/boloto1979/Code-Sentinel'
+
     },
     {
       id: 2,
-      src: Chatbot,
-      link:'https://github.com/boloto1979/Chatbot-AI'
+      src: Malware,
+      link:'https://github.com/boloto1979/Basic-Types-of-Malware'
+
     },
     {
       id: 3,
-      src: Blog,
-      link:'https://github.com/boloto1979/Blog-Laravel'
-
-    },
-    {
-      id: 4,
-      src: Keylogger,
-      link:'https://github.com/boloto1979/Keylogger'
-
-    },
-    {
-      id: 5,
-      src: Malware,
-      link:'https://github.com/boloto1979/Malware-Cripto'
-
-    },
-    {
-      id: 6,
-      src: Sentinel,
-      link:'https://github.com/boloto1979/Code-Sentinel'
+      src: Phishing,
+      link:'https://github.com/boloto1979/.phishing'
 
     },
   ];

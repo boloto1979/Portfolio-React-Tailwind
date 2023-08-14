@@ -6,21 +6,18 @@ import { Link } from 'react-scroll';
 const Home = () => {
   return (
     <div name="Home"
-    className=' h-screen  w-full bg-custom-blue'>
-        <div className=' max-w-screen-lg mx-auto flex flex-col
-         items-center justify-center h-full px-4 md:flex-row'>
-            <div className=' flex flex-col justify-center h-full'>
-                <h2 className=' text-4xl sm:text-7xl font-bold
-                 text-white'>I'm a Full Stack Developer</h2>
-                <p className=' text-gray-200 py-4 max-w-md'>
+    className='w-full h-screen  bg-custom-blue'>
+        <div className='flex flex-col items-center justify-center h-full max-w-screen-lg px-4 mx-auto  md:flex-row'>
+            <div className='flex flex-col justify-center h-full '>
+                <h2 className='text-4xl font-bold text-white  sm:text-7xl'>I'm a Developer and Pentester</h2>
+                <p className='max-w-md py-4 text-gray-200 '>
                 I am passionate about learning new technologies and applying them in challenging and innovative projects.
                 </p>
 
                 <div>
-                    <Link to='Portfolio' smooth duration={500} className=" group text-white w-fit px-6 py-3 my-2
-                     flex items-center rounded-md bg-cyan-600 cursor-pointer">
+                    <Link to='Portfolio' smooth duration={500} className="flex items-center px-6 py-3 my-2 text-white rounded-md cursor-pointer  group w-fit bg-cyan-600">
                         Portfolio
-                        <span className=' group-hover:rotate-90 duration-300'>
+                        <span className='duration-300  group-hover:rotate-90'>
                         <MdOutlineKeyboardArrowRight size={25} 
                         className='ml-1'/>
                         </span>
@@ -30,7 +27,7 @@ const Home = () => {
 
             <div>
                 <img src={MyImg} alt="my profile" 
-                className='rounded-2xl w-2/3 mx-auto md:w-full'/>
+                className='w-2/3 mx-auto rounded-2xl md:w-full'/>
             </div>
         </div>
     </div>
