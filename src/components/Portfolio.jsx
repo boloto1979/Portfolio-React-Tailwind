@@ -1,6 +1,5 @@
 import React from "react";
 import Phishing from "../assets/6b38023a-b3de-4c64-9919-d79a5a2fb34a.jpeg";
-import Keylogger from "../assets/keylogger.jpg";
 import Malware from "../assets/malware.png";
 import Sentinel from "../assets/stark-sentinel.jpg";
 
