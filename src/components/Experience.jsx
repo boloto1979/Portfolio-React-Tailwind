@@ -17,6 +17,9 @@ import Github from "../assets/linguagens/github.png";
 import Metasploit from "../assets/linguagens/metasploit-1.png";
 import Hydra from "../assets/linguagens/hydra-logo.svg";
 import Nmap from "../assets/linguagens/nmap-logo-256x256.png";
+import Owasp from "../assets/linguagens/owasp_logo_flat2_icon.png";
+import Wireshark from "../assets/linguagens/wireshark_104082.png";
+import Burp from "../assets/linguagens/1_KMYIE0A-u-DhaMm9N2ImlA.png";
 
 
 const Experience = () => {
@@ -128,6 +131,24 @@ const Experience = () => {
       src:Nmap,
       title:"Nmap",
       style: "shadow-blue-100"
+    },
+    {
+      id:18,
+      src:Owasp,
+      title:"Owasp",
+      style: "shadow-blue-900"
+    },
+    {
+      id:19,
+      src:Wireshark,
+      title:"Wireshark",
+      style: "shadow-blue-400"
+    },
+    {
+      id:20,
+      src:Burp,
+      title:"Burp suite",
+      style: "shadow-orange-500"
     },
 
   ];
