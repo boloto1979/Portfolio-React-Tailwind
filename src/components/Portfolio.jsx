@@ -33,7 +33,7 @@ const Portfolio = () => {
         <div className="pb-8">
           <p
             className="inline text-4xl font-bold border-b-4 border-gray-500 ">
-            Portfolio
+            Projects
           </p>
           <p className="py-6 ">Check out some of my work right here</p>
         </div>
